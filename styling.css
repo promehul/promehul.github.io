@@ -1,0 +1,195 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.base
+{   
+	background-image: url('roor1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    position: relative;
+    width: 99vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.img
+{
+
+    
+    border-radius: 90%;
+    top: 5%;
+    padding: 1px;
+    border: 5px solid #000000;
+    position: relative;
+   }
+ h1
+ {
+ 	color: #FFFFFF;
+ 	position: relative;
+    
+ 	font-family: 'Supermercado One', cursive;
+ 	font-size: 2em;
+ 	padding: 2px;
+ 	border:2px solid #000000;
+ }
+ p
+ {
+ 	color: #FFFFFF;
+ 	position: absolute;
+ 	top: 5%;
+ 	left:36%;
+ 	font-family: 'Supermercado One', cursive;
+ 	font-size: 200%;
+ 	padding: 2px;
+ 	border:2px solid #000000;
+ }
+ .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+ ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.hel{
+	display:flex;
+     justify-content: space-around;
+    
+
+}
+.op{ margin-right: 500px;
+	justify-content: flex-start;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.mehul
+{
+ width: 100%;
+ height: 50vh;
+ display: flex;
+ justify-content: space-around;
+}
+.mehul > div{
+	border: 1px solid green;
+	height: 99%;
+	width: 45%
+}
+.harshit{
+		display: inline-block;
+		width: 99%;
+		text-align: center;
+		font-family: monospace;
+	    font-size: 4.05vh;
+        background-color: #DCDCDC;
+		border: 3px solid black;
+        padding: 1px;
+
+
+	}
+
+div.gallery {
+    margin: 5px;
+    border: 3px solid green;
+    float: left;
+    width: 30vw;
+    height: 45vh;
+    padding: 1px;
+}
+div.gallery img {
+    width: 100%;
+    height: 82%;
+}
+.gallery > div.desc {
+    width: 100%;
+    height: 10%;
+    padding: 1px;
+    text-align: center;
+    font-family: monospace;
+
+    font-size: 5vh;
+   }
+
+
+.vibh{
+	width: 99vw;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.vibh > div {
+	border: 3px solid green;
+	height: 100%;
+	width: 100%;
+	}
+
+
+div.gallery2 {
+    margin: 5px;
+    border: 3px solid green;
+    float: left;
+    width: 50vw;
+    height: 40vh;
+    padding: 1px;
+}
+div.gallery2 img {
+    width: 100%;
+    height: 82%;
+}
+.gallery2 > div.desc2 {
+    width: 100%;
+    height: 10%;
+    padding: 1px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 4vh;
+   }
+
+.check{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.links{
+	display: flex;
+	justify-content: space-around;
+	
+	width: 100vw;
+	height: 10vh;
+ }
+
+ .lol{
+         display: flex;
+         justify-content: space-around;
+ }
